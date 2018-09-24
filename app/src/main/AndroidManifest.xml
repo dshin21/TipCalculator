@@ -16,7 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ConstraintActivity"></activity>
+        <activity android:name=".ConstraintActivity" />
+        <activity
+            android:name=".LinearActivity"
+            android:label="@string/title_activity_linear_constraint" />
+        <activity
+            android:name=".RelativeActivity"
+            android:label="@string/title_activity_relative" />
+        <activity
+            android:name=".GridActivity"
+            android:label="@string/title_activity_grid" />
+        <activity
+            android:name=".TableActivity"
+            android:label="@string/title_activity_table" />
     </application>
 
 </manifest>

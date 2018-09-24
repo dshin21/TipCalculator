@@ -22,4 +22,8 @@
 
     <string name="total_amount_label">Total</string>
     <string name="total_amount">$0.00</string>
+    <string name="title_activity_linear_constraint">linear_constraint</string>
+    <string name="title_activity_relative">activity_relative</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_table">TableActivity</string>
 </resources>
