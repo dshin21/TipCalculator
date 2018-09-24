@@ -34,7 +34,7 @@ public class TableActivity extends Activity implements TextView.OnEditorActionLi
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_linear );
+        setContentView( R.layout.activity_table );
 
         // get references to the widgets
         billAmountEditText = (EditText) findViewById( R.id.billAmountEditText5 );

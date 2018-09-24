@@ -34,7 +34,7 @@ public class RelativeActivity extends Activity implements TextView.OnEditorActio
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_linear );
+        setContentView( R.layout.activity_relative );
 
         // get references to the widgets
         billAmountEditText = (EditText) findViewById( R.id.billAmountEditText3 );

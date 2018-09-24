@@ -34,7 +34,7 @@ public class GridActivity extends Activity implements TextView.OnEditorActionLis
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_linear );
+        setContentView( R.layout.activity_grid );
 
         // get references to the widgets
         billAmountEditText = (EditText) findViewById( R.id.billAmountEditText4 );
