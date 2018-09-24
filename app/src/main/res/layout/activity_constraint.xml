@@ -157,14 +157,14 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/totalLabel"
         android:layout_alignLeft="@+id/tipTextView"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="40dp"
         android:padding="5dp"
         android:text="@string/total_amount"
         android:textSize="20sp"
-        tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/totalLabel"
-        android:layout_marginStart="23dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="22dp"
-        app:layout_constraintLeft_toRightOf="@+id/totalLabel" />
+        app:layout_constraintLeft_toRightOf="@+id/totalLabel"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
 </android.support.constraint.ConstraintLayout>

@@ -8,7 +8,15 @@
 
     <android.support.v7.widget.GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rowCount="3">
 
         <TextView
             android:id="@+id/billAmountLabel4"
@@ -21,8 +29,10 @@
             android:text="@string/bill_amount_label"
             android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_column="0"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_row="0" />
 
         <EditText
             android:id="@+id/billAmountEditText4"
@@ -42,12 +52,7 @@
             tools:layout_constraintRight_creator="1"
             tools:layout_constraintTop_creator="1">
 
-            <requestFocus />
         </EditText>
-
-        <requestFocus
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/percentLabel4"
@@ -60,9 +65,11 @@
             android:text="@string/tip_percent_label"
             android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_column="0"
             app:layout_constraintBottom_toBottomOf="@+id/totalTextView"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_row="1"
             tools:layout_constraintBottom_creator="1"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1" />
@@ -75,8 +82,10 @@
             android:padding="5dp"
             android:text="@string/tip_percent"
             android:textSize="20sp"
+            app:layout_column="1"
             app:layout_constraintLeft_toRightOf="@+id/percentLabel"
             app:layout_constraintTop_toTopOf="@+id/percentLabel"
+            app:layout_row="2"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1" />
 
@@ -87,8 +96,10 @@
             android:layout_marginEnd="4dp"
             android:text="@string/decrease"
             android:textSize="20sp"
+            app:layout_column=""
             app:layout_constraintRight_toLeftOf="@+id/percentUpButton"
             app:layout_constraintTop_toTopOf="@+id/percentTextView"
+            app:layout_row="1"
             tools:layout_constraintRight_creator="1"
             tools:layout_constraintTop_creator="1" />
 
